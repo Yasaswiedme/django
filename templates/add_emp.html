@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="add_emp">
+            {%csrf_token%}
+            <label for="First name">First name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="Last name">Last name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="Salary">Salary</label><br>
+            <input type="number" id="salary" name="salary"><br>
+            <label for="Department">Department</label><br>
+            <input type="number" id="dept" name="dept"><br>
+            <label for="Role">Role</label><br>
+            <input type="number" id="role" name="role"><br>
+            <label for="phone">Phone</label><br>
+            <input type="number" id="phone" name="phone"><br>
+            <label for="Bonus">Bonus</label><br>
+            <input type="number" id="bonus" name="bonus"><br><br>
+            <button type="submit">Submit</button>
+          </form> 
+          
+      </div>
+</body>
+</html>
